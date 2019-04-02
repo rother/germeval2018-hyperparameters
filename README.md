@@ -1,5 +1,5 @@
 # Collection of hyperparameters for the models from the GermEval-2018 paper
-## Link to the proceedings: [GermEval-2018 Proceedings](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj1j7OpxbHhAhUi2aYKHfSDBfEQFjAAegQIAhAC&url=https%3A%2F%2Fwww.oeaw.ac.at%2Ffileadmin%2Fsubsites%2Facademiaecorpora%2FPDF%2FGermEval2018_Proceedings.pdf&usg=AOvVaw121MWJiBhUX37Guho0moxm "GermEval 2018 Proceedings")
+## Link to the proceedings: [GermEval-2018 Proceedings](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj1j7OpxbHhAhUi2aYKHfSDBfEQFjAAegQIAhAC&url=https%3A%2F%2Fwww.oeaw.ac.at%2Ffileadmin%2Fsubsites%2Facademiaecorpora%2FPDF%2FGermEval2018_Proceedings.pdf&usg=AOvVaw121MWJiBhUX37Guho0moxm "GermEval-2018 Proceedings")
 
 Due to the big changes of the fast.ai library from version 0.7.x (when the paper was submitted) to 1.0.x I'm currently rewriting the previously messy code for the new library. In the meantime this repo collects the hyperparameters of the best models from the paper for reference/implementation purposes. The other parameters can be found in the paper. 
 
@@ -50,9 +50,9 @@ The model was gradually unfrozen by unfreezing the last layer and then unfreezin
 
 ## Task-Specific Head (TSH)
 
-The TSH was trained on the proovided data from the organizers of GermEval 2018.
+The TSH was trained on the provided data from the organizers of GermEval-2018.
 
-The model was gradually unfroozen layer by layer with the same hyperparameters.
+The model was gradually unfrozen layer by layer with the same hyperparameters.
 
 ### Hyperparameters TSH
 | Name        | Value           | 
