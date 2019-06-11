@@ -45,7 +45,7 @@ The model was gradually unfrozen by unfreezing the last layer and then unfreezin
 | STL-Cut_Fract (last unfrozen) | 0.5  |
 | STL-Ratio (all unfrozen) | 20  |
 | STL-Cut_Fract (all unfrozen) | 0.1  |
-| Dropout | [0.25, 0.1, 0.2, 0.02, 0.15] * 1.8  |
+| Dropout | [0.25, 0.1, 0.2, 0.02, 0.15] * 0.7  |
 | Gradient Clipping | not used  |
 
 ## Task-Specific Head (TSH)
